@@ -82,15 +82,6 @@ Vector& Vector::operator+=(value v)
     return *this;
 }
 
-// Vector& Vector::operator-=(value v)
-// {
-//     for (size_t i = 0; i < size_; i++)
-//     {
-//         content_[i] -= v;
-//     }
-//     return *this;
-// }
-
 Vector& Vector::operator*=(value v)
 {
     for (size_t i = 0; i < size_; i++)

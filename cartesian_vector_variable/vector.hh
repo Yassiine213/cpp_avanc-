@@ -19,7 +19,6 @@ public:
 // Add suitable constructors
     Vector(size_t N);
     Vector(std::initializer_list<value> l);
-    //{PERSO} Mettre les move constructors et assignment
     Vector(Vector&& other);
     Vector& operator=(Vector&& other);
 
